@@ -1,7 +1,7 @@
 package dev.romoura.api.domain;
 
 import dev.romoura.api.domain.record.MedicoRecord;
-import dev.romoura.api.record.MedicoRecordUpdate;
+import dev.romoura.api.domain.record.MedicoRecordUpdate;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

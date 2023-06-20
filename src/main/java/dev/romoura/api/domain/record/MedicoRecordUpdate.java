@@ -1,4 +1,4 @@
-package dev.romoura.api.record;
+package dev.romoura.api.domain.record;
 
 import dev.romoura.api.domain.record.EnderecoRecord;
 import jakarta.validation.constraints.NotNull;
