@@ -1,9 +1,9 @@
-package dev.romoura.api.domain.record;
+package dev.romoura.api.domain.endereco;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 
-public record EnderecoRecord(
+public record DadosEndereco(
         @NotBlank
         String logradouro,
         @NotBlank
@@ -16,6 +16,5 @@ public record EnderecoRecord(
         @NotBlank
         String uf,
         String complemento,
-        String numero
-) {
+        String numero) {
 }
